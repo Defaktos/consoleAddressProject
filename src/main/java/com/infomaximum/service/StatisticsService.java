@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
 
 public class StatisticsService {
 
-
     public static void countingDuplicates(List<Address> addresses) {
         addresses.stream()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))

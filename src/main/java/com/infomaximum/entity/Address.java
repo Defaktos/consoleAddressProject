@@ -1,10 +1,14 @@
 package com.infomaximum.entity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Address {
     private String city;
     private String street;
     private String house;
     private String floor;
+
 
     public Address(String city, String street, String house, String floor) {
         this.city = city;

@@ -16,8 +16,8 @@ public class UserPathHandler {
             addresses = XMLHandler.readXml(path);
         } else if (path.endsWith(".csv")) {
             addresses = CSVHandler.readCsv(path);
-//        } else {
-//            System.out.println("Error");
+        } else {
+            System.out.println("File Not Found");
         }
         return addresses;
     }
